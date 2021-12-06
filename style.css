@@ -1,0 +1,48 @@
+
+body{
+    background-color: #202357;
+}
+/*Navbar*/
+
+.navbar{
+    background-image: linear-gradient(to right, #202357, #202357);
+}
+.navbar-brand {
+    font-weight: bolder;
+    color: #fff;
+}
+
+
+.navbar-nav li a{
+    color: #E3F3FC;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/*Kotak*/
+.container .kotak{
+    position: relative;
+    width: 200px;
+    height: 250px;
+    border: 1px solid #1a5bbda2;
+    padding-right: 19%;
+    margin-left: 49%;
+    
+}
+/*Banner*/
+#banner{
+    
+    background-image: linear-gradient(to right, #202357, #202357);
+    padding-top: 3%;
+}
+
+#skill{
+    background-color: #25295f;
+}
+#resume{
+    background-color: #25295f;
+}
+#about{
+    background-color: #25295f;
+}
+

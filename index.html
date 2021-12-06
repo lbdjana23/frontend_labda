@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+  </head> -->
+
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Hello, world!</title>
+  </head>
+<body>
+     <!--==================== HEADER ====================-->
+     <section id="nav">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand"  style="color: #E3F3FC;font-weight: bold; text-transform: uppercase;"><i class="bi bi-currency-pound" style="color: #D76432;"></i>abda</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav"> 
+            <ul class="navbar-nav" style="margin-left: 40%;">
+              <li class="nav-item" >
+                <a class="nav-link " aria-current="page" href="index.html" style="color: #E3F3FC;font-weight: bold; text-transform: uppercase;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="resume.html"  style="color: #E3F3FC;font-weight: bold; text-transform: uppercase;">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="hobby.html"  style="color: #E3F3FC;font-weight: bold; text-transform: uppercase;">Hobby</a>
+              </li>
+              <li class="nav-item btn btn-outline-danger">
+                <a class="nav-link" href="contact.html"  style="color: #E3F3FC;font-weight: bold; text-transform: uppercase; ">Contact <i class="bi bi-arrow-right" style=" color: #FA121A;"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+       
+     </section>
+    
+        <!--==================== HOME ====================-->
+        <section id="banner">
+          <div class="banner">
+            <div class="container">
+              <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-sm-6" style="padding-top: 5%;">
+                      <div class="alert alert" role="alert">
+                        <p style="color: #FA121A; font-size: 15px;">Halo, Selamat Datang</p>
+                          <h4 style="color: #e3f3fc; font-size: 30px;font-weight: bold;">Saya Labda Jana</h4>
+                          <p style="color: #e3f3fc; font-size: 13px;">Universitas Pendidikan Nasionall</p>
+
+                          <!-- Button contact -->
+                      <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modalcontact">
+                        <i class="bi bi-telephone"></i> Contact Me
+                      </button>
+
+                    <!-- Modal contact-->
+                    <div class="modal fade" id="modalcontact" tabindex="-1" aria-labelledby="modalcontact" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+
+                            <h5 class="modal-title" id="modalcontact"><i class="bi bi-telephone-fill"></i> Contact</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+
+                          </div>
+
+                          <div class="modal-body">
+                            <form>
+                              <div class="row">
+                                <div class="col">
+                                <label for=""><i class="bi bi-person-plus"></i> Nama :</label>
+                                  <input type="text" class="form-control" placeholder="Putu Ngurah labda jana" readonly>
+                                </div>
+                                <br>
+                                <br>
+                                <div class="col">
+                                  <label for=""><i class="bi bi-calendar"></i> Tanggal Lahir:</label>
+                                  <input type="text" class="form-control" placeholder="15112000" readonly>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col">
+                                  <label for=""><i class="bi bi-envelope"></i> Gmail :</label>
+                                  <input type="text" class="form-control" placeholder="putulabda20@gmail.com" readonly>
+                                </div>
+                                <div class="col">
+                                  <label for=""><i class="bi bi-telephone"></i> No Telephone :</label>
+                                  <input type="text" class="form-control" placeholder="082133789637" readonly>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                  
+                </div>
+                    <div class="col-sm-6">
+                        <div class="alert alert" role="alert">
+                          
+                            <img src="img/labda jana.png" style="height: 255px; float:right;  margin-left: 5%;">
+                         
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+                </div>
+              </div>
+            </div>
+              </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section id="about" >
+            <div class="container" >
+              <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-sm-6">
+                      <div class="alert alert" role="alert">
+                            <div class="kotak" >
+                            <img src="img/Labda1.png" style="height: 255px; float: left;  margin-left: 1%;">
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="alert alert" role="alert" >
+                          <p style="color: #FA121A; font-size: 15px; padding-top: 10%; margin-left: 40% ;">Tentang Saya</p>
+                          <h4 style="color: #e3f3fc; font-size: 30px;font-weight: bold; margin-left: 40% ;">About Me </h4>
+                          <p style="color: #e3f3fc; font-size: 13px; margin-left: 40% ;">Saya berumur 20 tahun .
+                            Saya merupakan mahasiswa
+                             jurusan Teknologi Informasi di
+                            Universitas Pendidikan Nasional
+                            (UNDIKNAS). Saya Asli dari
+                            gianyar bali</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+                </div>
+              </div>
+            </div>
+              </div>
+        </section>
+        <!-- Akhir about -->
+        
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    
+
+
+  </body>
+</html>
